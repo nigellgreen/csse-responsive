@@ -1,0 +1,33 @@
+img{
+    width: 50%;
+    height:100px;
+    object-fit:cover;
+    flex-grow: 4;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+@media only screen 
+  and (min-device-width: 230px) 
+  and (max-device-width: 550px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    } 
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 2160px) { 
+
+}
